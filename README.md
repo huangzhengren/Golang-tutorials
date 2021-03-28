@@ -12,3 +12,9 @@
 
 ## [Definition_of_constants](./Definition_of_constants)
 
+## [Data_types_in_Go_language](./Data_types_in_Go_language)
+
+### [Basic_data_types](./Data_types_in_Go_language/Basic_data_types)
+
+#### [Integer](./Data_types_in_Go_language/Basic_data_types/Integer)
+
