@@ -152,15 +152,10 @@ func main() {
 # Focus
 
 * Variable names in Go language consist of letters, numbers and underscores.
-
 * The first character cannot be a number.
-
+* Go language is case sensitive.
 * Keywords and reserved words of Go language cannot be used as variable names.
-
 * Variables cannot be declared repeatedly in the same scope in Go language.
-
 * When the Go language short variable declaration method declares multiple variables and assigns them, the types of the variables can be inconsistent.
-
 * The short variable declaration method of Go language can only be used to declare local variables.
-
 * Anonymous variables do not occupy the namespace and do not allocate memory, so there is no duplicate declaration between anonymous variables.
