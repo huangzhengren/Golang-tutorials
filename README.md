@@ -14,7 +14,7 @@
 
 ## [Data_types_in_Go_language](./Data_types_in_Go_language)
 
-### [Basic_data_types](./Data_types_in_Go_language/Basic_data_types)
+### [./Data_types_in_Go_language](./Data_types_in_Go_language)
 
-#### [Integer](./Data_types_in_Go_language/Basic_data_types/Integer)
+#### [Basic_data_types](./Data_types_in_Go_language/Basic_data_types)
 
