@@ -120,6 +120,23 @@ func main() {
 
 	fmt.Println(m, n, o, p, r)
 
+	/*
+		const (
+			variable_name1,variable_name2 = iota + value1, iota + value2
+			variable_name3,variable_name4
+			variable_name5,variable_name6
+		)
+	*/
+	const (
+		u, v = iota + 1, iota + 3
+		w, x
+		y, z
+	)
+
+	fmt.Println(u, v)
+	fmt.Println(w, x)
+	fmt.Println(y, z)
+
 }
 
 ```
