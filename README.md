@@ -20,5 +20,7 @@
 
 #### [Basic_data_types](./Data_types_in_Go_language/Basic_data_types)
 
+## [Fmt_package](./Fmt_package)
+
 
 
