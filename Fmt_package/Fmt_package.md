@@ -1,3 +1,7 @@
+[TOC]
+
+
+
 # Fmt package
 
 The fmt package implements formatted I/O similar to the C languages printf and scanf. The formatting action ('verb') comes from C but is simpler.
@@ -49,6 +53,22 @@ The fmt package implements formatted I/O similar to the C languages printf and s
 | :---------: | :----------------------------------------------------------: |
 |     %s      |                    直接输出字符串或[]byte                    |
 |     %q      | 该值对应的双引号括起来的Go语法字符串字面值，必要时会采用安全的转义表示 |
-|             |                                                              |
-|             |                                                              |
+|     %x      |          每个字节用两字符十六进制数表示（使用a-f）           |
+|     %X      |          每个字节用两字符十六进制数表示（使用A-F）           |
+
+## Pointer
+
+| Placeholder |          description           |
+| :---------: | :----------------------------: |
+|     %p      | 表示为十六进制，并加上前导的0x |
+
+## Focus
+
+| Placeholder |    description     |
+| :---------: | :----------------: |
+|     %f      | 默认宽度，默认精度 |
+|     %9f     |  宽度9，默认精度   |
+|    %.2f     |  默认宽度，精度2   |
+|    %9.2f    |    宽度9，精度2    |
+|    %9.f     |    宽度9，精度0    |
 
