@@ -28,3 +28,13 @@
 [root@app01 software]# go fmt script_name.go
 ```
 
+## module maintenance
+
+```shell
+[root@app01 software]# go mod
+```
+
+## add dependencies to current module and install them
+```shell
+[root@app01 software]# go get
+```
