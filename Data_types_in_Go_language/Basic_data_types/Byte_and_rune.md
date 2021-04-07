@@ -33,6 +33,26 @@ func main() {
 	var f = '琪'
 	fmt.Printf("%v,%T\n", f, f) //Unicode编码十进制：29738,int32
 
+	str := "hello 琪琪"
+	for i := 0; i < len(str); i++ {
+		fmt.Printf("%v,%c\n", str[i], str[i]) // byte
+	}
+
+	for _, v := range str {
+		fmt.Printf("%v,%c\n", v, v)
+	}
+
+	var str1 = "nihao xiaobudianer"
+	var str2 string = "hello 小不点儿"
+
+	strByte := []byte(str1)
+	strByte[0] = 'q'
+	fmt.Println(string(strByte))
+
+	strRune := []rune(str2)
+	strRune[0] = '琪'
+	fmt.Println(string(strRune))
+
 }
 
 ```
